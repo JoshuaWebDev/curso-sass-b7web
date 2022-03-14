@@ -1,1 +1,19 @@
-body{background-color:#ccc}h1{color:#172b58;font-family:Arial,sans-serif;margin-top:10px;padding:10px}h2{color:#2b5dd1;background-color:#eee;border-radius:8px;display:inline;font-family:Arial,sans-serif;padding:10px}.quadrado{width:200px;height:200px;border:2px solid #000}.retangulo{width:230px;height:200px;border:2px solid #000}
+nav {
+  background-color: #EEEEEE;
+  height: 100px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  display: block;
+  background-color: #CCCCCC;
+  padding: 10px;
+  text-decoration: none;
+  color: #0d1f50;
+}
