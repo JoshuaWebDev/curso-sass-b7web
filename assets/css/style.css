@@ -8,7 +8,6 @@ nav {
   background-color: #ffffff;
   border-radius: 8px;
   height: 40px;
-  margin-top: 0;
   padding: 4px;
 }
 nav ul {
@@ -18,6 +17,10 @@ nav ul {
 }
 nav li {
   display: inline-block;
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
 }
 nav li a {
   display: block;
