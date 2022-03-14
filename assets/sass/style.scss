@@ -1,6 +1,11 @@
+@import 'reset';
+
 nav {
-    background-color: #EEEEEE;
-    height: 100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 0;
+    padding: 4px;
 
     ul {
         margin: 0;
@@ -13,7 +18,8 @@ nav {
 
         a {
             display: block;
-            background-color: #CCCCCC;
+            background-color: #4e8eb838;
+            border-radius: 8px;
             padding: 10px;
             text-decoration: none;
             color: #0d1f50;
